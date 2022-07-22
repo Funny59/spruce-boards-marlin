@@ -26,3 +26,17 @@
 #define Z_STEP_PIN                          PB5
 #define Z_DIR_PIN                           PB4
 #define Z_ENABLE_PIN                        PB6
+
+#define BTN_ENC                             PB10
+#define BTN_EN1                             PB2
+#define BTN_EN2                             PB1
+
+#if HAS_TMC_UART
+  #define E0_SERIAL_TX_PIN                  PA14
+  #define E0_SERIAL_RX_PIN      E0_SERIAL_TX_PIN
+
+  #define TMC_BAUD_RATE                    19200
+#endif
+
+#define SERVO0_PIN                          PA0
+#define SOL1_PIN                            SERVO0_PIN

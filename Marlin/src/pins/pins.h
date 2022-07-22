@@ -676,7 +676,7 @@
 #elif MB(ARTILLERY_RUBY)
   #include "stm32f4/pins_ARTILLERY_RUBY.h"      // STM32F4                                env:Artillery_Ruby
 #elif MB(SPRUCE_YELLOW)
-  #include "stm32f4/pins_SPRUCE_YELLOW.h"      // STM32F4                                env:SPRUCE_STM32F401CD
+  #include "stm32f4/pins_SPRUCE_YELLOW.h"      // STM32F4                                env:SPRUCE_STM32F401CD env:SPRUCE_STM32F401CC
 
 //
 // ARM Cortex M7
